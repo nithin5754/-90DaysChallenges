@@ -2,7 +2,7 @@
  * Check if the array is sorted
  */
 
-const array = [4,5,1,2,3];
+const array = [5,4,1,2,3];
 
 function IsArraySort(data) {
 
