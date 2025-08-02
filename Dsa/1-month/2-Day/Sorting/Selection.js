@@ -8,10 +8,11 @@ function SelectionSort(nums) {
         lowest = j;
       }
     }
-    if (lowest !== i) {
+    if (i !== lowest) {
       [nums[i], nums[lowest]] = [nums[lowest], nums[i]];
     }
   }
+
   return nums;
 }
 

@@ -14,9 +14,6 @@ const arr = [8, 3, 5, 1, 7, 9, 2];
 //   return nums;
 // }
 
-
-
-
 // function BubbleSort(nums) {
 
 //   for (let i = 0; i < nums.length; i++) {
@@ -26,18 +23,13 @@ const arr = [8, 3, 5, 1, 7, 9, 2];
 //         [nums[j],nums[j+1]]=[nums[j+1],nums[j]]
 //       }
 
-
-          
-
 //     }
-    
+
 //   }
 
 //   return nums
-  
+
 // }
-
-
 
 const result = BubbleSort(arr);
 
