@@ -6,7 +6,7 @@ function SpiralMatrix(nums) {
   let bottom = nums.length - 1;
   let res = [];
 
-  while (top <= bottom&&left<=right) {
+  while (top <= bottom && left <= right) {
     //right
     for (let i = left; i <= right; i++) {
       res.push(nums[top][i]);
@@ -41,8 +41,11 @@ function SpiralMatrix(nums) {
 
   return res;
 }
-let nums = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
-
+let nums = [
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9, 10, 11, 12],
+];
 
 let result = SpiralMatrix(nums);
 console.log("result", result);
